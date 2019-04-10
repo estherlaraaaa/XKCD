@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+    <TextView
+            android:id="@+id/item_list_content_TextView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+
+    <TextView
+            android:id="@+id/item_list_content_TextView_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+    <TextView
+            android:id="@+id/item_list_content_TextView_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+    <TextView
+            android:id="@+id/item_list_content_TextView_value_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+    <TextView
+            android:id="@+id/item_list_content_TextView_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+    <TextView
+            android:id="@+id/item_list_content_TextView_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+    <TextView
+            android:id="@+id/item_list_content_TextView_isAvailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/item_list_content_ImageView_img"/>
+</LinearLayout>
